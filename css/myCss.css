@@ -1,0 +1,16 @@
+.text_center{
+    text-align: center; 
+}
+/* 
+#classModal {
+  
+} */
+
+.modal-body {
+  overflow-x: auto;
+}
+
+.icon_action {
+  margin-right: 7%;
+  color:#676a6c;
+}
