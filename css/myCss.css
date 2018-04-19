@@ -14,3 +14,31 @@
   margin-right: 7%;
   color:#676a6c;
 }
+
+.border_none{
+  border: none;
+}
+
+.padding_top_3{
+  padding-top: 3%;
+}
+
+.margin-bottom_0{
+  margin-bottom: 0;
+}
+
+.size_50{
+  size:50%;
+}
+
+.padding_bottom_3{
+  padding-bottom: 3%;
+}
+
+.padding_right_5{
+  padding-right: 5%;
+}
+
+.width_7{
+  width: 7%;
+}

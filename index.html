@@ -20,7 +20,7 @@
 <body>
 
     <div id="wrapper">
-
+        <!-- Sider bar -->
         <nav class="navbar-default navbar-static-side" role="navigation">
             <div class="sidebar-collapse">
                 <ul class="nav" id="side-menu">
@@ -92,8 +92,12 @@
                 </ul>
             </div>
         </nav>
+        <!-- End Sider bar -->
 
+        <!-- Body -->
         <div id="page-wrapper" class="gray-bg">
+
+            <!-- Header -->
             <div class="row border-bottom">
                 <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
                     <div class="navbar-header">
@@ -225,6 +229,9 @@
 
                 </nav>
             </div>
+            <!-- End Header -->
+
+            <!-- Heading -->
             <div class="row wrapper border-bottom white-bg page-heading">
                 <div class="col-lg-10">
                     <h2>Home</h2>
@@ -238,7 +245,11 @@
                     </ol>
                 </div>
             </div>
+            <!-- End Heading -->
+
+            <!-- Table -->
             <div class="wrapper wrapper-content animated fadeInRight">
+                <!-- Table Update -->
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="ibox float-e-margins">
@@ -303,7 +314,7 @@
                                                         <i class="fa fa-envelope fa-lg icon_action"></i>
                                                     </a>
                                                     <a href="#">
-                                                        <i class="fa fa-phone fa-lg icon_action "></i>
+                                                        <i class="fa fa-phone fa-lg icon_action" onclick="modalAutoCall()"></i>
                                                     </a>
                                                     <a href="#">
                                                         <i class="fa fa-external-link-square fa-lg icon_action"></i>
@@ -331,7 +342,7 @@
                                                         <i class="fa fa-envelope fa-lg icon_action"></i>
                                                     </a>
                                                     <a href="#">
-                                                        <i class="fa fa-phone fa-lg icon_action"></i>
+                                                        <i class="fa fa-phone fa-lg icon_action" onclick="modalAutoCall()"></i>
                                                     </a>
                                                     <a href="#">
                                                         <i class="fa fa-external-link-square fa-lg icon_action"></i>
@@ -359,7 +370,7 @@
                                                         <i class="fa fa-envelope fa-lg icon_action"></i>
                                                     </a>
                                                     <a href="#">
-                                                        <i class="fa fa-phone fa-lg icon_action"></i>
+                                                        <i class="fa fa-phone fa-lg icon_action" onclick="modalAutoCall()"></i>
                                                     </a>
                                                     <a href="#">
                                                         <i class="fa fa-external-link-square fa-lg icon_action"></i>
@@ -373,7 +384,9 @@
                         </div>
                     </div>
                 </div>
+                <!-- End Table Update -->
 
+                <!-- Table Ticket -->
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="ibox float-e-margins">
@@ -434,10 +447,10 @@
                                                 <td>Inprocess</td>
                                                 <td>
                                                     <a href="#">
-                                                        <i class="fa fa-envelope fa-lg icon_action" onclick="modalAutoCall()"></i>
+                                                        <i class="fa fa-envelope fa-lg icon_action"></i>
                                                     </a>
                                                     <a href="#">
-                                                        <i class="fa fa-phone fa-lg icon_action"></i>
+                                                        <i class="fa fa-phone fa-lg icon_action" onclick="modalAutoCall()"></i>
                                                     </a>
                                                     <a href="#">
                                                         <i class="fa fa-external-link-square fa-lg icon_action"></i>
@@ -465,7 +478,7 @@
                                                         <i class="fa fa-envelope fa-lg icon_action"></i>
                                                     </a>
                                                     <a href="#">
-                                                        <i class="fa fa-phone fa-lg icon_action"></i>
+                                                        <i class="fa fa-phone fa-lg icon_action" onclick="modalAutoCall()"></i>
                                                     </a>
                                                     <a href="#">
                                                         <i class="fa fa-external-link-square fa-lg icon_action"></i>
@@ -493,7 +506,7 @@
                                                         <i class="fa fa-envelope fa-lg icon_action"></i>
                                                     </a>
                                                     <a href="#">
-                                                        <i class="fa fa-phone fa-lg icon_action"></i>
+                                                        <i class="fa fa-phone fa-lg icon_action" onclick="modalAutoCall()"></i>
                                                     </a>
                                                     <a href="#">
                                                         <i class="fa fa-external-link-square fa-lg icon_action"></i>
@@ -521,7 +534,36 @@
                                                         <i class="fa fa-envelope fa-lg icon_action"></i>
                                                     </a>
                                                     <a href="#">
-                                                        <i class="fa fa-phone fa-lg icon_action"></i>
+                                                        <i class="fa fa-phone fa-lg icon_action" onclick="modalAutoCall()"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-external-link-square fa-lg icon_action"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr class="text_center">
+                                                <td>
+                                                    <input type="checkbox" class="i-checks" name="input[]">
+                                                </td>
+                                                <td>SC0123456789</td>
+                                                <td>Hỗ trợ update monitor HNI P473 , P082 MPLS</td>
+                                                <td>0/1</td>
+                                                <td>
+                                                    <div class="progress progress-mini">
+                                                        <div class="progress-bar" style="width: 100%;"></div>
+                                                    </div>
+                                                    <div style="text-align:center;">100%</div>
+                                                </td>
+                                                <td>1</td>
+                                                <td>BTHT</td>
+
+                                                <td>Inprocess</td>
+                                                <td>
+                                                    <a href="#">
+                                                        <i class="fa fa-envelope fa-lg icon_action"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-phone fa-lg icon_action" onclick="modalAutoCall()"></i>
                                                     </a>
                                                     <a href="#">
                                                         <i class="fa fa-external-link-square fa-lg icon_action"></i>
@@ -549,7 +591,7 @@
                                                         <i class="fa fa-envelope fa-lg icon_action"></i>
                                                     </a>
                                                     <a href="#">
-                                                        <i class="fa fa-phone fa-lg icon_action"></i>
+                                                        <i class="fa fa-phone fa-lg icon_action" onclick="modalAutoCall()"></i>
                                                     </a>
                                                     <a href="#">
                                                         <i class="fa fa-external-link-square fa-lg icon_action"></i>
@@ -577,7 +619,7 @@
                                                         <i class="fa fa-envelope fa-lg icon_action"></i>
                                                     </a>
                                                     <a href="#">
-                                                        <i class="fa fa-phone fa-lg icon_action"></i>
+                                                        <i class="fa fa-phone fa-lg icon_action" onclick="modalAutoCall()"></i>
                                                     </a>
                                                     <a href="#">
                                                         <i class="fa fa-external-link-square fa-lg icon_action"></i>
@@ -605,7 +647,7 @@
                                                         <i class="fa fa-envelope fa-lg icon_action"></i>
                                                     </a>
                                                     <a href="#">
-                                                        <i class="fa fa-phone fa-lg icon_action"></i>
+                                                        <i class="fa fa-phone fa-lg icon_action" onclick="modalAutoCall()"></i>
                                                     </a>
                                                     <a href="#">
                                                         <i class="fa fa-external-link-square fa-lg icon_action"></i>
@@ -633,7 +675,7 @@
                                                         <i class="fa fa-envelope fa-lg icon_action"></i>
                                                     </a>
                                                     <a href="#">
-                                                        <i class="fa fa-phone fa-lg icon_action"></i>
+                                                        <i class="fa fa-phone fa-lg icon_action" onclick="modalAutoCall()"></i>
                                                     </a>
                                                     <a href="#">
                                                         <i class="fa fa-external-link-square fa-lg icon_action"></i>
@@ -661,35 +703,7 @@
                                                         <i class="fa fa-envelope fa-lg icon_action"></i>
                                                     </a>
                                                     <a href="#">
-                                                        <i class="fa fa-phone fa-lg icon_action"></i>
-                                                    </a>
-                                                    <a href="#">
-                                                        <i class="fa fa-external-link-square fa-lg icon_action"></i>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                            <tr class="text_center">
-                                                <td>
-                                                    <input type="checkbox" class="i-checks" name="input[]">
-                                                </td>
-                                                <td>SC0123456789</td>
-                                                <td>Hỗ trợ update monitor HNI P473 , P082 MPLS</td>
-                                                <td>0/1</td>
-                                                <td>
-                                                    <div class="progress progress-mini">
-                                                        <div class="progress-bar" style="width: 100%;"></div>
-                                                    </div>
-                                                    <div style="text-align:center;">100%</div>
-                                                </td>
-                                                <td>1</td>
-                                                <td>BTHT</td>
-                                                <td>Inprocess</td>
-                                                <td>
-                                                    <a href="#">
-                                                        <i class="fa fa-envelope fa-lg icon_action"></i>
-                                                    </a>
-                                                    <a href="#">
-                                                        <i class="fa fa-phone fa-lg icon_action"></i>
+                                                        <i class="fa fa-phone fa-lg icon_action" onclick="modalAutoCall()"></i>
                                                     </a>
                                                     <a href="#">
                                                         <i class="fa fa-external-link-square fa-lg icon_action"></i>
@@ -704,7 +718,10 @@
                         </div>
                     </div>
                 </div>
+                <!-- End Table Ticket -->
             </div>
+            <!-- End Table -->
+
             <!--Modal-->
             <div id="modal-form" class="modal fade" aria-hidden="true">
                 <div class="modal-dialog">
@@ -832,7 +849,7 @@
 
                             </div>
                         </div>
-                        <div class="modal-footer" style="border: none; padding-right: 5%" >
+                        <div class="modal-footer" style="border: none; padding-right: 5%">
                             <button type="button" class="btn btn-primary" data-dismiss="modal">
                                 Close
                             </button>
@@ -846,12 +863,10 @@
             <!-- End Modal Auto Call -->
 
         </div>
+        <!-- End Body -->
     </div>
-    </div>
-    </div>
-
-    </div>
-    </div>
+    
+    <!-- Footer -->
     <div class="footer">
         <div class="pull-right">
             <div id="mybutton">
@@ -863,6 +878,7 @@
             <strong>Copyright</strong> Example Company &copy; 2014-2015
         </div>
     </div>
+    <!-- End Footer -->
 
     <!-- Mainly scripts -->
     <script src="js/jquery-2.1.1.js"></script>
